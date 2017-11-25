@@ -1,0 +1,12 @@
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.App.xaml
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.SimplePalettePage.xaml
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.App.xaml.g.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.SimplePalettePage.xaml.g.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/bin/Debug/SimplePalette.dll.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/bin/Debug/SimplePalette.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/obj/Debug/SimplePalette.dll.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/bin/Debug/Xamarin.Forms.Core.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/SimplePalette/SimplePalette/bin/Debug/Xamarin.Forms.Xaml.dll

@@ -1,0 +1,2 @@
+PROJECT 1 - Simple PaletteCOEN268-TR 07:10 PMName: Visalakshi GopalakrishnanREADME.txt* The program runs on two platform : iPhone (10.2) and Android (API 23/19)
+* The Class SimplePalette.cs has all the program implementation and the App.xaml.cs class refers to this class as MainPage = new SimplePalette();* Warning label is displayed when,  color value = 0 or color value = 255 and appropriate buttons are disabled * Data is saved on sleep mode and retrieved when the application resumes* The application adapts to portrait or landscape view through the scrollView method.
