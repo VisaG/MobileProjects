@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DynamicPhotoFrame.MainPhotoPage">
+	<ContentPage.Content>
+		<ScrollView>
+		<StackLayout VerticalOptions="CenterAndExpand" Spacing="5" Padding="10,0,10,5">
+
+			<StackLayout Orientation="Horizontal" Spacing="1" >
+            
+					<Label x:Name="imageCount" HorizontalOptions="StartAndExpand" Style="{StaticResource projectLabels}" />
+                    <ActivityIndicator x:Name="activityIndicator" IsEnabled="true" />
+					<Label x:Name="countDown" HorizontalOptions="EndAndExpand" Style="{StaticResource projectLabels}" />
+
+				<Switch x:Name="switchToggle" Toggled="OnSwitchToggled" IsToggled="true"  HorizontalOptions="Center" />
+                </StackLayout>
+			<StackLayout VerticalOptions="CenterAndExpand" HeightRequest="200">
+				<Image x:Name="CurrentImage" WidthRequest="275" />
+               
+			</StackLayout>
+			<Label x:Name="timeSelect" Text="Time Interval selected: 10 secs" Style="{StaticResource projectLabels}" />
+			<Slider x:Name="slider" Maximum="60" Minimum="1" Value="{Binding Timeset, Mode=TwoWay}" ValueChanged="OnSliderValueChanged" />
+			<Entry x:Name="entryTime" Text="{Binding Timeset, Mode=TwoWay}" Completed="EntryCompleted" />
+			<Stepper x:Name="stepper" Increment="1" Maximum="60" Minimum="1" Value="{Binding Timeset, Mode=TwoWay}" />
+			<Button x:Name="navButton" Text="Go Image List Page" BorderColor="Black" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="CenterAndExpand" WidthRequest="200" Clicked="onNavButtonClicked" />
+		</StackLayout>
+
+			</ScrollView>
+	</ContentPage.Content>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="projectLabels" TargetType="Label">
+				<Setter Property="TextColor" Value="Accent" />
+				<Setter Property="VerticalOptions" Value="CenterAndExpand" />
+				<Setter Property="Font" Value="Small" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+</ContentPage>

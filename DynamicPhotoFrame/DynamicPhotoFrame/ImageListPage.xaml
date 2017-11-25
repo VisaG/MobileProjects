@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DynamicPhotoFrame.ImageListPage">
+	<ContentPage.Content>
+		<StackLayout BindingContext="{Binding ImageBody}" Padding="5,0,0,10">
+			 <StackLayout>
+				 <Label Text="Enter Image Url:" Style="{StaticResource projectLabels}" />
+                <Label x:Name="warn" Text="Field cannot be empty" Style="{StaticResource projectLabels}" IsVisible="false" />
+                <Entry x:Name="ImageSourceText" Placeholder="Enter Image Uri" HorizontalOptions="CenterAndExpand" Completed="ImageSourceCompleted" WidthRequest="300"  />
+                <Button x:Name="Add" Text="Add Image" BorderColor="Black" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="StartAndExpand" Clicked="onAddButtonClicked" />
+            </StackLayout>
+				<ListView x:Name="ImageStack" ItemsSource="{Binding Images}">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ImageCell x:Name="ICell" ImageSource="{Binding ImgSource}" Text="{Binding ImageFileName}" BindingContextChanged="OnBindingContextChanged">
+							<ImageCell.ContextActions>
+								<MenuItem Text="View" Command="{Binding ViewCommand}" />
+								<MenuItem Text="Move Up" Command="{Binding MoveUpCommand}" />
+								<MenuItem Text="Move Down" Command="{Binding MoveDownCommand}" />
+								<MenuItem Text="Remove" Command="{Binding RemoveCommand}" />
+							</ImageCell.ContextActions>
+						</ImageCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+            
+		</StackLayout>
+	</ContentPage.Content>
+
+	<ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="projectLabels" TargetType="Label">
+                <Setter Property="TextColor" Value="Accent" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="Font" Value="Small" />
+            </Style>
+        </ResourceDictionary>
+		</ContentPage.Resources>
+</ContentPage>

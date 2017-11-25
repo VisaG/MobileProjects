@@ -1,0 +1,15 @@
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/DynamicPhotoFrame.iOS.exe.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/DynamicPhotoFrame.iOS.exe
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/DynamicPhotoFrame.iOS.exe
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/obj/iPhoneSimulator/Debug/DynamicPhotoFrame.iOS.exe.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/DynamicPhotoFrame.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/DynamicPhotoFrame/iOS/bin/iPhoneSimulator/Debug/DynamicPhotoFrame.dll.mdb

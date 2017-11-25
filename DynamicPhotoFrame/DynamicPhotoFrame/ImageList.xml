@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ImageBody xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Images>
+			<Image>
+			<Title>My Default Rose</Title>
+			<Type>1</Type>
+			<Detail>Static Url</Detail>
+			<Date>03/12/2017</Date>
+			<ImageFileName>https://www.gstatic.com/webp/gallery3/1_webp_a.sm.png</ImageFileName>
+			<ImageSource>https://www.gstatic.com/webp/gallery3/1_webp_a.sm.png</ImageSource>
+		</Image>
+		<Image>
+			<Title>Default Tiger</Title>
+			<Type>2</Type>
+			<Detail>Static File</Detail>
+			<Date>03/12/2017</Date>
+			<ImageFileName>brooklynmuseum.jpg</ImageFileName>
+			<ImageSource>brooklynmuseum.jpg</ImageSource>
+		</Image>
+		<Image>
+			<Title>Default Plane</Title>
+			<Type>3</Type>
+			<Detail>Static Embedded</Detail>
+			<Date>03/12/2017</Date>
+			<ImageFileName>DynamicPhotoFrame.EmbImage.jpg</ImageFileName>
+			<ImageSource>DynamicPhotoFrame.EmbImage.jpg</ImageSource>
+		</Image>
+
+		<Image>
+			<Title>Default Tomato</Title>
+			<Type>4</Type>
+			<Detail>Static Stream</Detail>
+			<Date>03/12/2017</Date>
+			<ImageFileName>DynamicPhotoFrame.StreamImage.jpg</ImageFileName>
+			<ImageSource>DynamicPhotoFrame.StreamImage.jpg</ImageSource>
+		</Image>
+		<Image>
+			<Title>Mickey</Title>
+			<Type>5</Type>
+			<Detail>Disney</Detail>
+			<Date>03/12/2017</Date>
+			<ImageFileName>http://www.primocircoloeboli.gov.it/images/stories/topolino.jpg</ImageFileName>
+			<ImageSource>http://www.primocircoloeboli.gov.it/images/stories/topolino.jpg</ImageSource>
+		</Image>
+
+		<Image>
+			<Title>BaseBall</Title>
+			<Type>5</Type>
+			<Detail>BaseBall</Detail>
+			<Date>04/15/2016</Date>
+			<ImageFileName>http://www.clipartguide.com/_small/0808-0710-1513-5335.jpg</ImageFileName>
+			<ImageSource>http://www.clipartguide.com/_small/0808-0710-1513-5335.jpg</ImageSource>
+		</Image>
+
+		<Image>
+			<Title>Pink Cat</Title>
+			<Type>5</Type>
+			<Detail>Detail</Detail>
+			<Date>07/15/2016</Date>
+			<ImageFileName>http://www.clipartguide.com/_small/0512-0709-1716-1951.jpg</ImageFileName>
+			<ImageSource>http://www.clipartguide.com/_small/0512-0709-1716-1951.jpg</ImageSource>
+		</Image>
+		<Image>
+			<Title>Colorful Catepillar</Title>
+			<Type>5</Type>
+			<Detail>Rainbow Color</Detail>
+			<Date>12/15/2016</Date>
+			<ImageFileName>https://upload.wikimedia.org/wikipedia/en/d/d8/Url-logo.png</ImageFileName>
+			<ImageSource>https://upload.wikimedia.org/wikipedia/en/d/d8/Url-logo.png</ImageSource>
+		</Image>
+		<Image>
+			<Title>Colorful Catepillar</Title>
+			<Type>5</Type>
+			<Detail>Rainbow Color</Detail>
+			<Date>12/15/2016</Date>
+			<ImageFileName>https://www.irvingisd.net/cms/lib010/TX01917973/Centricity/Domain/5258/ECS/CliftonECS_JPG-01.jpg</ImageFileName>
+			<ImageSource>https://www.irvingisd.net/cms/lib010/TX01917973/Centricity/Domain/5258/ECS/CliftonECS_JPG-01.jpg</ImageSource>
+		</Image>
+		
+	</Images>
+</ImageBody>

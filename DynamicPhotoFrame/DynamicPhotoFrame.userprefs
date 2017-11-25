@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{1E4E2296-2A02-4DAE-9493-04DD03EDBA53}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/SaveAndLoad.cs">
+    <Files>
+      <File FileName="DynamicPhotoFrame/Model/ImageBody.cs" Line="53" Column="25" />
+      <File FileName="DynamicPhotoFrame/Model/Image.cs" Line="18" Column="1" />
+      <File FileName="DynamicPhotoFrame/ImageListPage.xaml.cs" Line="99" Column="42" />
+      <File FileName="iOS/Main.cs" Line="18" Column="1" />
+      <File FileName="DynamicPhotoFrame/ImageDetailPage.xaml.cs" Line="180" Column="31" />
+      <File FileName="DynamicPhotoFrame/MainPhotoPage.xaml.cs" Line="21" Column="21" />
+      <File FileName="DynamicPhotoFrame/ImageList.xml" Line="73" Column="18" />
+      <File FileName="DynamicPhotoFrame/ViewModel/ImageViewModel.cs" Line="33" Column="8" />
+      <File FileName="DynamicPhotoFrame/ViewModel/ViewModelBase.cs" Line="18" Column="4" />
+      <File FileName="DynamicPhotoFrame/ConversionExt.cs" Line="8" Column="27" />
+      <File FileName="DynamicPhotoFrame/ViewModel/MainPhotoModel.cs" Line="42" Column="57" />
+      <File FileName="DynamicPhotoFrame/ISaveAndLoad.cs" Line="7" Column="34" />
+      <File FileName="Droid/SaveAndLoad.cs" Line="27" Column="41" />
+      <File FileName="iOS/SaveAndLoad.cs" Line="27" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="DynamicPhotoFrame/ImageListPage.xaml.cs" line="30" offsetX="612" offsetY="377" expression="theImageCell" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.DynamicPhotoFrame.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.01BEB0ED-235F-46EF-B6EC-13A994D66F01" />
+  <MonoDevelop.Ide.ItemProperties.DynamicPhotoFrame.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>

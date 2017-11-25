@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DynamicPhotoFrame.ImageDetailPage" Padding="5,20,5,5">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Padding="20,5,5,20">
+				<Label x:Name="viewLabel" Text="View Image Detail " HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" />
+				<Label x:Name="editLabel" Text="Edit Image Detail " HorizontalTextAlignment="Center" FontSize="Large" FontAttributes="Bold" />
+				<Image x:Name="imgSource" Source="{Binding ImgSource}" HorizontalOptions="CenterAndExpand" WidthRequest="250" HeightRequest="200" />
+				<StackLayout Orientation="Horizontal">
+					<Button x:Name="save" Text="Save" IsVisible="false" BorderColor="Black" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="StartAndExpand" WidthRequest="125" Clicked="onSaveClicked" />
+					<Button x:Name="cancel" Text="Cancel" IsVisible="false" BorderColor="Black" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="StartAndExpand" WidthRequest="125" Clicked="onCancelButtonClicked" />
+				</StackLayout>
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Image Source:" Style="{StaticResource projectLabels}" />
+					<Label x:Name="warn" Text="*Cannot be empty, keeping same url" Style="{StaticResource projectLabels}" />
+				</StackLayout>
+				<Entry x:Name="imgSourceText" Text="{Binding ImageFileName}" IsEnabled="false" HorizontalOptions="StartAndExpand" Completed="imageSourceCompleted" WidthRequest="250" />
+				<Label Text="Title:" Style="{StaticResource projectLabels}" />
+				<Entry x:Name="imgTitle" Text="{Binding Title}" IsEnabled="false" HorizontalOptions="StartAndExpand" Completed="EntryTitleCompleted" WidthRequest="250" />
+				<Label Text="Detail:" Style="{StaticResource projectLabels}" />
+				<Entry x:Name="imgDetail" Text="{Binding Detail}" IsEnabled="false" HorizontalOptions="StartAndExpand" Completed="EntryDetailCompleted" WidthRequest="250" />
+				<Label Text="Date:" Style="{StaticResource projectLabels}" />
+				<Label x:Name="warnDate" Text="Please enter correct date format" IsVisible="false"/>
+				<Entry x:Name="imgDate" Text="{Binding Date}" IsEnabled="false" HorizontalOptions="StartAndExpand" Completed="EntryDateCompleted" WidthRequest="250" />
+				<Button x:Name="back" Text="Back" BorderColor="Black" IsVisible="false" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="StartAndExpand" WidthRequest="125" Clicked="onBackNavButtonClicked" />
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="projectLabels" TargetType="Label">
+				<Setter Property="TextColor" Value="Accent" />
+				<Setter Property="VerticalOptions" Value="CenterAndExpand" />
+				<Setter Property="Font" Value="Small" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+</ContentPage>
