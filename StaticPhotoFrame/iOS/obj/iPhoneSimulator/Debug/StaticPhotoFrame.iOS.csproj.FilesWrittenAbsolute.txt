@@ -1,0 +1,15 @@
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/StaticPhotoFrame.iOS.exe.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/StaticPhotoFrame.iOS.exe
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/StaticPhotoFrame.iOS.exe
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/obj/iPhoneSimulator/Debug/StaticPhotoFrame.iOS.exe.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/StaticPhotoFrame.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/iOS/bin/iPhoneSimulator/Debug/StaticPhotoFrame.dll.mdb

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StaticPhotoFrame.PhotoFrame" Padding="0,20,0,0">
+	<ContentPage.Content>
+		<StackLayout>
+			<StackLayout Orientation="Horizontal" Spacing="1">
+				<Switch x:Name="switchToggle" Toggled="OnSwitchToggled" IsToggled="true" VerticalOptions="Center" HorizontalOptions="Center" />
+				<Label x:Name="imageCount" HorizontalOptions="StartAndExpand" Style="{StaticResource projectLabels}" />
+				<Label x:Name="countDown" HorizontalOptions="EndAndExpand" Style="{StaticResource projectLabels}" />
+				<Button x:Name="removeButton" Text="X" BorderColor="Black" BackgroundColor="Silver" BorderWidth="1" HorizontalOptions="EndAndExpand" Clicked="OnRemoveButtonClicked" IsVisible="false" IsEnabled="false" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<StackLayout x:Name="CurrImage" VerticalOptions="CenterAndExpand">
+					<Image x:Name="CurrentImage" WidthRequest="150" />
+					<ActivityIndicator x:Name="activityIndicator" IsEnabled="true"/>
+				</StackLayout>
+				<StackLayout>
+					<Label Text="Select Time [1-60]" Style="{StaticResource projectLabels}" />
+					<StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+						<Slider x:Name="timeSlider" Maximum="60" Minimum="1" WidthRequest="100" ValueChanged="OnSliderValueChanged" />
+						<Label x:Name="slideLabel" HorizontalOptions="EndAndExpand" Style="{StaticResource projectLabels}" />
+					</StackLayout>
+					<StackLayout Orientation="Horizontal">
+						<Stepper x:Name="stepper" Maximum="60" Minimum="1" Increment="1" ValueChanged="OnStepperValueChanged" HorizontalOptions="Center" />
+						<Label x:Name="stepperValue" HorizontalOptions="EndAndExpand" Style="{StaticResource projectLabels}" />
+					</StackLayout>
+					<StackLayout Orientation="Horizontal">
+						<Entry x:Name="entryNum" HorizontalOptions="EndAndExpand" Completed="EntryCompleted" WidthRequest="100" />
+						<Label x:Name="entryValue" HorizontalOptions="EndAndExpand" Style="{StaticResource projectLabels}" />
+					</StackLayout>
+				</StackLayout>
+			</StackLayout>
+			<StackLayout Orientation="Horizontal" Spacing="1">
+				<Entry x:Name="uriImageSourceText" Placeholder="Source Uri" HorizontalOptions="StartAndExpand" Completed="EntryCompleted" WidthRequest="250" />
+				<Button Text="Add" BorderColor="Black" BorderWidth="1" HorizontalOptions="EndAndExpand" Clicked="addButtonClicked" />
+			</StackLayout>
+			<ScrollView>
+				<StackLayout x:Name="imageStack" Spacing="2">
+					<Frame ClassId="0" OutlineColor="Accent" Padding="5,5,5,5">
+						<StackLayout Orientation="Horizontal">
+							<Image x:Name="uriImage" WidthRequest="30" />
+							<Label LineBreakMode="MiddleTruncation" Text="https://www.gstatic.com/webp/gallery3/1_webp_a.sm.png" Style="{StaticResource projectLabels}" />
+						</StackLayout>
+						<Frame.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnFrameTapped" />
+						</Frame.GestureRecognizers>
+					</Frame>
+					<Frame ClassId="1" OutlineColor="Accent" Padding="5,5,5,5">
+						<StackLayout Orientation="Horizontal">
+							<Image x:Name="fileImage" WidthRequest="30">
+							</Image>
+							<Label Text="brooklynmuseum.jpg" Style="{StaticResource projectLabels}" />
+						</StackLayout>
+						<Frame.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnFrameTapped" />
+						</Frame.GestureRecognizers>
+					</Frame>
+					<Frame ClassId="2" OutlineColor="Accent" Padding="5,5,5,5">
+						<StackLayout Orientation="Horizontal">
+							<Image x:Name="EmbImage" WidthRequest="30">
+							</Image>
+							<Label Text="Embedded Image " Style="{StaticResource projectLabels}" />
+						</StackLayout>
+						<Frame.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnFrameTapped" />
+						</Frame.GestureRecognizers>
+					</Frame>
+					<Frame ClassId="3" OutlineColor="Accent" Padding="5,5,5,5">
+						<StackLayout Orientation="Horizontal">
+							<Image x:Name="streamImage" WidthRequest="30">
+							</Image>
+							<Label Text="Stream Image " Style="{StaticResource projectLabels}" />
+						</StackLayout>
+						<Frame.GestureRecognizers>
+							<TapGestureRecognizer Tapped="OnFrameTapped" />
+						</Frame.GestureRecognizers>
+					</Frame>
+				</StackLayout>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style x:Key="projectLabels" TargetType="Label">
+				<Setter Property="TextColor" Value="Accent" />
+				<Setter Property="VerticalOptions" Value="CenterAndExpand" />
+				<Setter Property="Font" Value="Small" />
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+</ContentPage>

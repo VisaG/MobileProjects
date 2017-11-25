@@ -1,0 +1,14 @@
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.App.xaml
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.PhotoFrame.xaml
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.EmbImage.jpg
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.StreamImage.jpg
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.App.xaml.g.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.PhotoFrame.xaml.g.cs
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/bin/Debug/StaticPhotoFrame.dll.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/bin/Debug/StaticPhotoFrame.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/obj/Debug/StaticPhotoFrame.dll.mdb
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/bin/Debug/Xamarin.Forms.Core.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/visa/Desktop/SCU Course-Work/Mobile/StaticPhotoFrame/StaticPhotoFrame/bin/Debug/Xamarin.Forms.Xaml.dll
