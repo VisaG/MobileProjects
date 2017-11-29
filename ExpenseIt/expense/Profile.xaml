@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="expense.Profile" Title="My Notes">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="30, 10, 30, 60" Android="5,30,10,5" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout>
+			<Image x:Name="profilePic" Source="profile.jpg" WidthRequest="100" />
+			<Label Text="User Name : Visa">
+			</Label>
+			<StackLayout Orientation="Horizontal">
+				<Entry x:Name="name" Placeholder="*****" VerticalOptions="CenterAndExpand" WidthRequest="150" IsEnabled="false" />
+				<Button x:Name="edit" Text="edit" BorderColor="#FF5A5F" BackgroundColor="#FF5A5F" TextColor="#ffffff" WidthRequest="100" HeightRequest="30" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Notes:" FontSize="12" FontAttributes="Bold">
+				</Label>
+				<Entry x:Name="myNote" VerticalOptions="CenterAndExpand" WidthRequest="200" />
+			</StackLayout>
+			<Button x:Name="add" Text="Add Note" BorderColor="#FF5A5F" BackgroundColor="#FF5A5F" TextColor="#ffffff" HeightRequest="30" Clicked="onAddNoteClicked" />
+			<ScrollView>
+			<StackLayout x:Name="noteStack" BackgroundColor="Silver">
+			</StackLayout>
+				</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

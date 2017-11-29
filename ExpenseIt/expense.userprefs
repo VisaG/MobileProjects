@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{3563C9F0-981B-4EAF-A2B9-E9BFD561D0DC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+    <Files>
+      <File FileName="expense/BudgetPage.xaml.cs" Line="84" Column="5" />
+      <File FileName="expense/ExpenseChart.xaml.cs" Line="28" Column="1" />
+      <File FileName="expense/ExpenseItemUtil.cs" Line="53" Column="51" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
+      <File FileName="expense/App.xaml.cs" Line="21" Column="10" />
+      <File FileName="expense/Login.xaml.cs" Line="10" Column="40" />
+      <File FileName="expense/ExpenseList.cs" Line="8" Column="14" />
+      <File FileName="expense/Profile.xaml.cs" Line="26" Column="53" />
+      <File FileName="expense/obj/Debug/expense.Profile.xaml.g.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.expense.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.01BEB0ED-235F-46EF-B6EC-13A994D66F01" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/visa/Desktop/IndependentStudy/expense/Droid/AccountPage.xaml.cs" relfile="Droid/AccountPage.xaml.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.expense.Droid PreferredExecutionTarget="Android.NewAndriod" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="expense/ExpenseChart.xaml" line="12" offsetX="-1" offsetY="-1" expression="expense" liveUpdate="False" />
+    <Watch file="expense/ExpenseChart.xaml" line="15" offsetX="-1" offsetY="-1" expression="Model" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MultiItemStartupConfigurations />
+</Properties>

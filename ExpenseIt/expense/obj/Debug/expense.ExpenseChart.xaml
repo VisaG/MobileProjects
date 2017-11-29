@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	         x:Class="expense.ExpenseChart" 
+	         xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
+	         Title="Expense Chart">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="30, 10, 30, 60" Android="30, 10, 30, 60" />
+	</ContentPage.Padding>
+
+
+
+
+	<ContentPage.Content>
+		<StackLayout >
+			<Image Source="chart.jpg" >
+				</Image>
+			<StackLayout Orientation="Horizontal" HeightRequest="30">
+				<Label Text="Select Year to Chart" FontSize="12" FontAttributes="Bold">
+				</Label>
+
+				<Picker x:Name="year" SelectedIndexChanged="OnYearSelected" Title="Select Year" >
+					<Picker.Items>
+						<x:String>2014</x:String>
+						<x:String>2015</x:String>
+						<x:String>2016</x:String>
+						<x:String>2017</x:String>
+					</Picker.Items>
+				</Picker>
+			</StackLayout>
+			<StackLayout >
+				<Label Text="Select month for detail transaction:" FontSize="12" FontAttributes="Bold">
+				</Label>
+				<Picker x:Name="month" SelectedIndexChanged="OnMonthSelected">
+					<Picker.Items>
+						<x:String>Jan</x:String>
+						<x:String>Feb</x:String>
+						<x:String>Mar</x:String>
+						<x:String>April</x:String>
+						<x:String>May</x:String>
+						<x:String>Jun</x:String>
+						<x:String>July</x:String>
+						<x:String>Aug</x:String>
+						<x:String>Sep</x:String>
+						<x:String>Oct</x:String>
+						<x:String>Nov</x:String>
+						<x:String>Dec</x:String>
+					</Picker.Items>
+				</Picker>
+				</StackLayout>
+				<Frame OutlineColor="Accent" Padding="10,10,10,10" >
+				<Label x:Name="l" FontSize="12" FontAttributes="Bold">
+				</Label>
+			</Frame>
+			<ScrollView>
+				<StackLayout x:Name="displayStack" Spacing="12" BackgroundColor="Silver">
+				</StackLayout>
+				</ScrollView>
+			<Label x:Name="total" FontSize="12" FontAttributes="Bold" ></Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

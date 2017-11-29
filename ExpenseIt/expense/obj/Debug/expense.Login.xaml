@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="expense.Login" >
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="30, 40, 30, 60" Android="30, 40, 30, 60" />
+	</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" >
+			<Label Text="ExpenseIt" FontSize="20" FontAttributes="Bold" TextColor="#484848" HorizontalOptions="Center" />
+			<Image Source="MainLogo.jpg" />
+
+
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Username" FontSize="12" TextColor="#484848" HorizontalOptions="CenterAndExpand" />
+					<Entry x:Name="username" VerticalOptions="CenterAndExpand" WidthRequest="150" HeightRequest="30" />
+				</StackLayout>
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Password" FontSize="12" TextColor="#484848" HorizontalOptions="CenterAndExpand" />
+					<Entry x:Name="passwordEntry" IsPassword="true" Placeholder="******" VerticalOptions="CenterAndExpand" WidthRequest="150" HeightRequest="30"/>
+				</StackLayout>
+		
+				<Button x:Name="submitButton" Text="Login" BorderColor="#FF5A5F" BackgroundColor="#FF5A5F" TextColor="#ffffff" BorderWidth="1" VerticalOptions="CenterAndExpand" Clicked="OnSubmitButtonClicked" />
+			
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

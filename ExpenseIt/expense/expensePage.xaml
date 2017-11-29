@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:local="clr-namespace:expense" 
+	x:Class="expense.expensePage">
+	
+<NavigationPage Title="Expense" Icon="budget" >
+		<x:Arguments>
+			<local:BudgetPage />
+		</x:Arguments>
+	</NavigationPage>
+	<NavigationPage Title="Chart" Icon="chart"  >
+		<x:Arguments>
+			<local:ExpenseChart />
+		</x:Arguments>
+	</NavigationPage>
+	<NavigationPage Title="Account" Icon="account" >
+		<x:Arguments>
+			<local:Profile />
+		</x:Arguments>
+	</NavigationPage>
+	
+
+
+</TabbedPage>
